@@ -17,10 +17,6 @@ body {
         color: #030303;
       }
 
-html {
-        scroll-behavior: smooth;
-}
-
 .name-title {
         font-size: 30px;
         letter-spacing: 10px;
@@ -49,6 +45,10 @@ html {
         color: #161616;
 }
 
+html {
+        scroll-behavior: smooth;
+}
+
 .main-container {
         display: flex;
         flex-wrap: wrap;
@@ -67,48 +67,17 @@ html {
         margin: 0 auto;
 }
 
-.dropbtn {
-        background-color: #000000;
-        color: white;
-        padding: 20px;
-        font-size: 20px;
-        border: none;
-        width: 400px;
-        border-radius: 50px;
+.menuTop{
+        display: flex;
+        gap: 20px;
+        background-color: #8a8787;
 }
 
-.dropdown {
-        position: relative;
-        display: inline-block;
-}
-
-.dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #b9b9b9;
-        min-width: 160px;
-        box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
-        z-index: 1;
-}
-
-.dropdown-content a {
-        color: black;
-        padding: 12px 16px;
+.nav-link{
         text-decoration: none;
-        display: block;
+        color: #000000;
 }
 
-.dropdown-content a:hover {
-        background-color: rgb(146, 145, 145);
-}
-
-.dropdown:hover .dropdown-content {
-        display: block;
-}
-
-.dropdown:hover .dropbtn {
-        background-color: #afadad;
-}
 
 @media (max-width: 768px) {
         .section {
